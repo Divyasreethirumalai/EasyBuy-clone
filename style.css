@@ -1,0 +1,122 @@
+.navbar-nav .nav-link:hover{
+    color: darkgray;
+}
+.hero.carousel-inner img{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.hero img{
+    width:100%;
+}
+.bg-custom{
+    background-color: rgb(221, 21, 21);
+}
+.custom-bg{
+    background-color: rgba(202, 194, 194, 0.507);
+}
+.stats-box{
+    text-align: center;
+    padding: 20 px;
+}
+.stats-box i{
+    font-size:80 px;
+    color: red;
+}
+.rectangle{
+    display:grid;
+    gap:15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer-link:hover{
+    color:darkgray;
+}
+.footer-link{
+    color: white;
+}
+.toggle-title {
+      font-weight: bold;
+      color: red;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+    }
+    .toggle-content {
+      display: none;
+      margin-left: 10px;
+      color: #333;
+    }
+    .btn-custom {
+      background-color: red;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .btn-custom:hover {
+      background-color: darkred;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .contact-section {
+      padding: 40px 0;
+    }
+    .contact-info {
+      margin-bottom: 20px;
+    }
+    .form-box {
+      background: #fff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+     .nav-tabs .nav-link.active {
+      background-color: red !important;
+      color: white !important;
+      font-weight: bold;
+    }
+    .search-box {
+      background: #f7f7f7;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    .store-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 20px;
+      transition: 0.3s;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .store-card:hover {
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .btn-red {
+      background-color: #d9534f;
+      color: #fff;
+      border-radius: 20px;
+    }
+    .btn-red:hover {
+      background-color: #c9302c;
+    }
+    footer {
+      background: #000;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+      margin-top: 30px;
+    }
+    footer a {
+      color: #fff;
+      margin: 0 5px;
+      text-decoration: none;
+    }
